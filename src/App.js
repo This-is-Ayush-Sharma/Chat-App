@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 
 import io from 'socket.io-client';
 // import { nanoid } from 'nanoid';
-const socket = io.connect("https://chatting-test-api.herokuapp.com/"); 
+const socket = io.connect("https://socketchat.onrender.com"); 
 // const socket = io.connect("http://172.32.0.26:5000");
 // const userName = nanoid(4);
 const userName = prompt("Enter your name", "Harry Potter");
